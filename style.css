@@ -1,0 +1,148 @@
+/*Container for entire page*/
+/* body {
+  width: 100vw;
+} */
+
+.title{
+  font-size: 44px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.sub-title{
+  margin-top: 10px;
+  font-size: 16px;
+  width: 65%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.landing-wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  margin-inline: 400px;
+  margin-bottom: 100px;
+}
+                                                                                                                                                                                                                          
+.image-photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  width: 243px;
+  height: 243px;
+  object-fit: cover;
+  border-radius: 50%;       
+  justify-self: flex-end;                                                                                                                                                   
+}
+
+.image-wrapper {
+  /* margin-right: 115px; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;  
+}
+
+.title-wrapper {
+  /* margin-left: 115px; */
+  width: 100%;
+}
+
+.contact-wrapper {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  background-color:#EDF7FA;
+  padding-inline: 400px;
+  margin-bottom: 50px;
+}
+
+.news-wrapper {
+  display: block;
+  padding-top: 24px;
+  padding-inline: 400px;
+}
+
+.card {
+  display: flex;
+  margin-top: 12px;
+  border-bottom: black 1px solid;
+  padding-bottom: 7px;
+}
+
+.card-content {
+  display: block;
+  margin-left: 12px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.chip {
+  width: auto;
+  height: auto;
+  border-radius: 20%;
+  display: block;
+  background-color: rgb(19, 1, 48);
+  color: aliceblue;
+  padding: 5px;
+}
+
+.category {
+  color: gray;
+}
+
+.card-status {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.card-status > *:not(:last-child) {
+  display: block;
+  margin: 12px; 
+}
+
+.card-image {
+  display: block;
+  width: 246px;
+  height: 180px;
+  border-radius: 5%;
+}
+
+.social-icon > * {
+  margin: 12px; 
+  display: flex;
+  text-align: center;
+}
+
+.footer {
+  display: block;
+  margin-inline: 400px;
+  padding-block: 30px;
+}
+
+.social {
+  
+}
+
+.center {
+    margin: auto;
+    width: 21%;
+    padding: 10px;
+  }
+
+/* img {
+    height: 215px;
+	align-items: center;
+	border-radius: 50%;
+    border: 1px solid rgb(242, 241, 241);
+}
+
+h3 {
+    color: #136223;
+} */
+  
